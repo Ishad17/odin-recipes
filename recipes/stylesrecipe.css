@@ -2,49 +2,133 @@ body {
     background-image: url('../images/background.jpg');
 }
 
-h1{
-    font-weight: 800;
-    font-size: 40px;
-    background-color: rgb(8, 34, 8);
-    display: inline;
-    color: wheat;
-}
-
-ul{
-    color: black;
-    font-size: 20px;
-    background-color: burlywood;
-    
-    
-}
-
-#list{
-    font-weight: bold;
-}
-ol{
-    color: black;
-    font-size: 20px;
-    background-color: burlywood;
-    
-}
-
-p{
-    font-weight:bold;   
-    display: inline;
-    background-color:rgb(255, 255, 255);
-    padding: 1px; /* Pad   ding inside the text box */
-    margin: 10px 0; /* Margin around the text box */
-    border-radius: 8px; /* Border-radius for rounded corners */
-    color: #020202; /* Text color inside the text box */
-
-    max-width: 1px; /* Set the maximum width for the text box */
-    margin: 20px auto; /* Center the text box with auto margin */
- /* Add padding inside the text box */
-
-}
 #ing{
     font-size: 40px;
     background-color: rgb(8, 34, 8);
     display: inline;
     color: wheat;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position:static;   
+ 
+}
+
+h1{
+  
+    position:static;
+    top: 1000px;
+    left: 10px;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: rgb(152, 224, 152);
+
+    display: inline;
+    padding:1px ;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+   
+}
+
+
+#list{
+    font-weight: bold;
+}
+
+li {
+    color: black;
+    font-size: 20px;  
+    list-style-type:decimal; /* Remove default list item bullets */
+}
+
+#unordered{
+    list-style-type: square;
+    padding: 2px;
+}
+
+ul {
+    
+    columns: 2;
+    list-style: none; /* Remove default list styles */
+    overflow: hidden; /* Clear the float */
+}
+
+#or-line
+{
+    padding: 5px;
+    background-color: rgb(114, 136, 116);  
+}
+
+#ordered{
+    font-size: 25px;
+    padding: 2px;
+}
+
+ol {
+    font-size: 20px;
+    line-clamp:initial;
+}
+
+ol > span {
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    margin-left: 1px;
+    padding: 5px; 
+}
+
+img{
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(114, 136, 116);
+    padding: 2px;
+}
+    
+li > span {
+    columns: 2;
+    float:none; /* Float th]e list items to create a two-column layout */
+    width: calc(50% - 5px); /* Set the width of list items for two columns with gap */
+    margin-right: 5px; /* Adjust the gap between columns */
+    box-sizing: border-box; /* Include padding and border in the width */
+    /* Optional: Add styles for list items */
+    margin-bottom: 5px;
+
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    background-color: rgb(114, 136, 116);
+    margin-left: 1px;
+    padding: 5px; /* Adjust the padding to control the amount of background around the text */
+}
+
+.content {
+    max-width: 800px; /* Adjust the maximum width of your content */
+    margin: 10px 0;  /* Center the content on the page */
+    font-weight: bold;
+    background-color: aliceblue;
+    text-align:justify;
+    display: grid;
+    border: 2px solid black; 
+    padding: 10px;
+    
+}
+
+
+.top-right-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: aliceblue;
 }
