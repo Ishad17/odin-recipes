@@ -1,5 +1,6 @@
 body {
     background-image: url('./images/background.jpg');
+    
 }   
 
 a {
@@ -23,4 +24,53 @@ h1 {
 
 li{
     font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+#image-container {
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height as needed */
+}
+
+img {
+    max-width: 20%;
+    max-height: 20%;
+    border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+    display: none; /* Initially hide all images */
+    box-shadow: 0 0 10px rgb(114, 136, 116);
+    padding: 2px;
+}
+
+/* Show a random image */
+#image-container img:nth-child(1) {
+    order: 1;
+    display: block;
+    
+    margin: auto; 
+
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+#image-container img:nth-child(2) {
+    order: 2;
+    display: block;
+    margin: auto; 
+
+    float: left; /* Float the image to the left */
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+#image-container img:nth-child(3) {
+    order: 3;
+    display: block;
+    
 }
