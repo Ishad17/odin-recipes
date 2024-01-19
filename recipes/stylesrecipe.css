@@ -10,32 +10,29 @@ body {
     padding: 5px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position:static;   
- 
+    position:static;    
+    font-weight: 300;
+
 }
 
 h1{
   
-    position:static;
     top: 1000px;
-    left: 10px;
+    left: 10px; 
     font-weight: 800;
-    font-size: 40px;
+    font-size: 60px;
     background-color: rgb(152, 224, 152);
 
-    display: inline;
-    padding:1px ;
+    display:inline-block;
+    padding:10px ;
     color: rgb(0, 0, 0);
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     
    
 }
 
 
-#list{
-    font-weight: bold;
-}
 
 li {
     color: black;
@@ -46,6 +43,7 @@ li {
 #unordered{
     list-style-type: square;
     padding: 2px;
+    white-space: nowrap;
 }
 
 ul {
@@ -58,11 +56,14 @@ ul {
 #or-line
 {
     padding: 5px;
-    background-color: rgb(114, 136, 116);  
+    background-color: rgb(164, 196, 161);  
 }
 
 #ordered{
-    padding: 2px;
+    font-size: 25px;
+    padding: 5px;
+    white-space: nowrap; 
+    
 }
 
 ol {
@@ -78,11 +79,13 @@ ol > span {
     padding: 5px; 
 }
 
+
 img{
     border-radius: 20px;
     box-shadow: 0 0 10px rgb(114, 136, 116);
     padding: 2px;
 }
+
     
 li > span {
     columns: 2;
@@ -95,8 +98,7 @@ li > span {
 
     display: inline-block;
     color: black;
-    font-size: 25px;
-    background-color: rgb(114, 136, 116);
+    background-color: rgb(164, 196, 161);
     margin-left: 1px;
     padding: 5px; /* Adjust the padding to control the amount of background around the text */
 }
@@ -105,11 +107,13 @@ li > span {
     max-width: 800px; /* Adjust the maximum width of your content */
     margin: 10px 0;  /* Center the content on the page */
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: rgb(212, 240, 209);
     text-align:justify;
     display: grid;
     border: 2px solid black; 
     padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     
 }
 
