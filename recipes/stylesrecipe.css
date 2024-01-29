@@ -24,7 +24,8 @@ ul {
 #or-line
 {
     padding: 5px;
-    background-color: rgb(114, 136, 116);  
+    background-color: rgb(112, 221, 121);  
+    width: 800px;
 }
 
 #ordered{
@@ -37,59 +38,48 @@ ul {
 ol {
     font-size: 20px;
     line-clamp:initial;
+    width: 800px;
 }
-
-ol > span {
-    display: inline-block;
-    color: black;
-    font-size: 25px;
-    margin-left: 1px;
-    padding: 5px; 
-}
-
 
 img{
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgb(114, 136, 116);
-    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(1, 27, 3);
     margin: 10px;
-    border-radius:20px;
-    border: rgb(30, 210, 105);
+    border-color: #031b04;
     border-width: 10px;
     position:static;    
 }
 
     
-li > span {
-    columns: 2;
+span {
     float:none; /* Float th]e list items to create a two-column layout */
-    width: calc(50% - 5px); /* Set the width of list items for two columns with gap */
-    margin-right: 5px; /* Adjust the gap between columns */
+    width: 500px; /* Set the width of list items for two columns with gap */
+    margin-right: 10px; /* Adjust the gap between columns */
     box-sizing: border-box; /* Include padding and border in the width */
     /* Optional: Add styles for list items */
     margin-bottom: 5px;
-
     display:inline-block;
     color: black;
-    background-color: rgb(18, 224, 36);
+    background-color: rgb(48, 146, 48);
     margin-left: 1px;
     padding: 5px 2px; /* Adjust the padding to control the amount of background around the text */
 }
 
 .content {
     max-width: 800px; /* Adjust the maximum width of your content */
-    margin: 10px 10px;  /* Center the content on the page */
+    margin: 5px;  /* Center the content on the page */
     font-weight: bold;
-    background-color: aliceblue;
+    background-color: rgb(207, 235, 194);
     text-align:justify;
-    border: 2px solid rgb(211, 24, 24); 
-    padding: 8px;
+    border: 2px solid rgb(27, 80, 30); 
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     color: #030c3b;   
     border-radius: 10px;
     position:static;    
     
 }
-
 
 #ing{
     font-size: 40px;
@@ -98,29 +88,33 @@ li > span {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position:static;    
+    position:relative;    
     font-weight: 300;
+    width:fit-content;
+    margin: 5px;
 }
 
 button{
     margin: 1px;
     margin-right: 15px;
     margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(199, 53, 82);
 }
 
 h1{
-  
+    border: 2px solid rgb(57, 134, 54);
     font-weight: 800;
     font-size: 40px;
     background-color: rgb(152, 224, 152);
-   display:flexbox;
-   border-color: #0c26bd;
     margin: 10px;
-    padding:10px ;
+    padding:13px ;
     color: rgb(0, 0, 0);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position:static;
+    border-width: 5px;
 }
 
 .top-right-button {
@@ -132,10 +126,9 @@ h1{
    padding: 10px;
    background-color: #4CAF50;
    color: rgb(15, 0, 0);
-   border-radius: 5px;
-   box-shadow: 0 0 10px rgb(0, 0, 0);
+   border-radius: 5px;  
    cursor: pointer;
-   margin: 10px;
+   margin: 17px;
 }
 
 a {
@@ -143,18 +136,44 @@ a {
     text-decoration: none;
 }
 
+
+
+.bb{
+    border: 10 solid #030c3b;
+}
+.bottom-back{
+    font-size: 20px;
+    position: relative;
+    border: 0 solid #0c26bd;
+    border-radius: 10px;
+    background-color: rgb(211, 39, 73);
+    padding: 8px;
+}
+
 .box1 {
-    padding: 10px;
-    color: #031b04;
+    padding: 30px;
+    color: #000000;
     font-weight: 800;
-    font-size: 50px;
-    background-color: blueviolet;
-  }
+    font-size: 30px;
+    background-color: rgb(7, 122, 22);
+    border: 25px solid rgb(77, 3, 3);
+    width:60%;
+    border-radius: 30px;
+    margin: 0 0 20px 0;
+    display: block;
+  } 
 
 .box2{
-    padding: 20px;
+    
+    width: 8px;
+    margin: 10px 10px 5px 1px;
+    padding: 10px;
     color: #0c26bd;
     font-weight: 800;
-    font-size: 50px;
+    display: block;
+    font-size: 25px;
     background-color: rgb(230, 98, 21);
+    border: 10px solid rgb(80, 2, 2);
+    width: 100px;
+    height: 100px;
   }
