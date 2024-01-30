@@ -2,44 +2,50 @@ body {
    background-image: url('../images/background.jpg');
 }
 
-<<<<<<< HEAD
 li {
     color: black;
-    font-size: 20px;  
-    list-style-type:decimal; /* Remove default list item bullets */
+    font-weight: 800;  
+    list-style-type:decimal bold; /* Remove default list item bullets */
 }
 
-#unordered{
+#unordered
+{
     list-style-type: square;
-    padding: 2px;
-    white-space: nowrap;
+    padding: 5px;
+    margin: 4px;
+    font-size: 20px;
+    font-weight: 100;
+    width: 350px;
+    background-color: #5aac65;
+    border-radius: 5px;
 }
-
-ul {
-    
+#ordered{
+    background-color:#2d8839;
+    padding: 10px;
+    font-size: 20px;
+}
+ul
+{    
     columns: 2;
-    list-style: none; /* Remove default list styles */
-    overflow: hidden; /* Clear the float */
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+    width: 1000px;
 }
 
 #or-line
 {
     padding: 5px;
     background-color: rgb(112, 221, 121);  
-    width: 800px;
-}
-
-#ordered{
-    font-size: 25px;
-    padding: 5px;
-    white-space: nowrap; 
-    
+    width: 790px;
 }
 
 ol {
     font-size: 20px;
     line-clamp:initial;
     width: 800px;
+    list-style-type: bold;
+    
 }
 
 img{
@@ -51,51 +57,46 @@ img{
     position:static;    
 }
 
-    
-span {
-    float:none; /* Float th]e list items to create a two-column layout */
-    width: 500px; /* Set the width of list items for two columns with gap */
-    margin-right: 10px; /* Adjust the gap between columns */
-    box-sizing: border-box; /* Include padding and border in the width */
-    /* Optional: Add styles for list items */
-    margin-bottom: 5px;
-    display:inline-block;
-    color: black;
-    background-color: rgb(48, 146, 48);
-    margin-left: 1px;
-    padding: 5px 2px; /* Adjust the padding to control the amount of background around the text */
-}
 
-.content {
+p {
     max-width: 800px; /* Adjust the maximum width of your content */
-    margin: 5px;  /* Center the content on the page */
+    margin-top: 40px;
     font-weight: bold;
     background-color: rgb(207, 235, 194);
     text-align:justify;
     border: 2px solid rgb(27, 80, 30); 
-    padding: 10px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding: 30px;
+    float: right;
+    margin-right: 90px;
     color: #030c3b;   
-    border-radius: 10px;
-    position:static;    
+    border-radius: 10px;    
     
 }
 
-=======
->>>>>>> 02f74b8ad027bb1f6827a215f6c5069ba21b83d1
 #ing{
     font-size: 40px;
     background-color: rgb(8, 34, 8);
     color: wheat;
-<<<<<<< HEAD
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position:relative;    
-    font-weight: 300;
-    width:fit-content;
-    margin: 5px;
+    position:relative   ;    
+    font-weight: 600;
+    width:400px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#make{
+    font-size: 40px;
+    background-color: rgb(8, 34, 8);
+    color: wheat;
+    padding: 15px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    position: relative;
 }
 
 button{
@@ -109,16 +110,17 @@ button{
 
 h1{
     border: 2px solid rgb(57, 134, 54);
+    width: 500px;
     font-weight: 800;
     font-size: 40px;
     background-color: rgb(152, 224, 152);
-    margin: 10px;
+    margin: auto;
     padding:13px ;
     color: rgb(0, 0, 0);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position:static;
     border-width: 5px;
+    text-align: center;
 }
 
 .top-right-button {
@@ -181,133 +183,3 @@ a {
     width: 100px;
     height: 100px;
   }
-=======
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position:static;    
-    font-weight: 300;
-
-}
-
-h1{
-  
-    top: 1000px;
-    left: 10px; 
-    font-weight: 800;
-    font-size: 60px;
-    background-color: rgb(152, 224, 152);
-
-    display:inline-block;
-    padding:10px ;
-    color: rgb(0, 0, 0);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
-   
-}
-
-
-
-li {
-    color: black;
-    font-size: 20px;  
-    list-style-type:decimal; /* Remove default list item bullets */
-}
-
-#unordered{
-    list-style-type: square;
-    padding: 2px;
-    white-space: nowrap;
-}
-
-ul {
-    
-    columns: 2;
-    list-style: none; /* Remove default list styles */
-    overflow: hidden; /* Clear the float */
-}
-
-#or-line
-{
-    padding: 5px;
-    background-color: rgb(164, 196, 161);  
-}
-
-#ordered{
-    font-size: 25px;
-    padding: 5px;
-    white-space: nowrap; 
-    
-}
-
-ol {
-    font-size: 20px;
-    line-clamp:initial;
-}
-
-ol > span {
-    display: inline-block;
-    color: black;
-    font-size: 25px;
-    margin-left: 1px;
-    padding: 5px; 
-}
-
-
-img{
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgb(114, 136, 116);
-    padding: 2px;
-}
-
-    
-li > span {
-    columns: 2;
-    float:none; /* Float th]e list items to create a two-column layout */
-    width: calc(50% - 5px); /* Set the width of list items for two columns with gap */
-    margin-right: 5px; /* Adjust the gap between columns */
-    box-sizing: border-box; /* Include padding and border in the width */
-    /* Optional: Add styles for list items */
-    margin-bottom: 5px;
-
-    display: inline-block;
-    color: black;
-    background-color: rgb(164, 196, 161);
-    margin-left: 1px;
-    padding: 5px; /* Adjust the padding to control the amount of background around the text */
-}
-
-.content {
-    max-width: 800px; /* Adjust the maximum width of your content */
-    margin: 10px 0;  /* Center the content on the page */
-    font-weight: bold;
-    background-color: rgb(212, 240, 209);
-    text-align:justify;
-    display: grid;
-    border: 2px solid black; 
-    padding: 10px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    
-}
-
-
-.top-right-button {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    font-weight: 800;
-    font-size: 20px;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-a {
-    color: aliceblue;
-}
->>>>>>> 02f74b8ad027bb1f6827a215f6c5069ba21b83d1

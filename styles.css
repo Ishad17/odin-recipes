@@ -1,6 +1,7 @@
 body {
     background-image: url('./images/background.jpg');
-    
+    width: 800px;
+    margin: 40px auto;
 }   
 
 a {
@@ -73,8 +74,4 @@ img {
 #image-container img:nth-child(3) {
     order: 3;
     display: block;
-<<<<<<< HEAD
-    
-=======
->>>>>>> 02f74b8ad027bb1f6827a215f6c5069ba21b83d1
 }
