@@ -54,24 +54,23 @@ img{
     margin: 10px;
     border-color: #031b04;
     border-width: 10px;
-    position:static;    
+    position:static;
+    display:inline-block;    
 }
 
 
 p {
     max-width: 800px; /* Adjust the maximum width of your content */
-    margin-top: 40px;
     font-weight: bold;
     background-color: rgb(207, 235, 194);
     text-align:justify;
     border: 2px solid rgb(27, 80, 30); 
     padding: 30px;
-    float: right;
-    margin-right: 90px;
     color: #030c3b;   
     border-radius: 10px;
-    position:static;
-    
+    margin-top: 50px;
+    position:absolute;
+    display:inline-block;
 }
 
 #ing{
