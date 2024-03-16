@@ -1,77 +1,93 @@
 body {
     background-image: url('./images/background.jpg');
-    width: 800px;
-    margin: 40px auto;
+    margin: auto;    
 }   
 
 a {
     background-color:#125523;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-decoration: none;
+    padding: 5px;
+    padding-right: 80px;
+    text-decoration:wavy;
+    
+}
+
+.burger{
+    display: inline;
+
+    margin: 100px;
 }
 
 h1 {
-    font-size: 50px;
-    text-align: start;
-    text-decoration:blue;
+    font-size: 40px;
     color: rgb(255, 255, 255);
-    display:inline;
-    background-color: #125523;
-    padding: 5px; 
+    display: inline;
+    align-content:flex-end;
+    text-align: left;
+    width: 750px;
+    margin: 1px 0px 1px 0px;
+    border-radius: 10px;
+    padding: 15px;
 }
 
 li{
     font-size: 25px;
+    margin: 25px;
+    width: 100px;
+    padding: 2px;
+}
+
+.flex-container{
+            display: flex;
+            flex-wrap: nowrap;
+            background-color: #125523;
+            padding:0;
+            color:white;
+            font-size: 30px;
+            font-weight: 800;
+            margin: 0;
+            align-items: center;
+}
+
+.menu{
+    flex: 1;   
+    display: inline;
+    text-align: center;
+    flex-shrink: 0;
+    flex-grow: 1;
+    padding: 20px;
+    
+}
+
+.space{
+    display: inline;
+    flex-shrink: 0;
+    flex-grow: 1;
+    
 }
 
 
 
-
-
-
-
-
+ul{
+    display: inline;
+    width: 200px;
+    padding: 5px;
+    float: left;
+}
 
 #image-container {
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Set the height as needed */
+    height: 1000px; /* Set the height as needed */
+    padding: 25px;
+    display: inline-block;
 }
 
 img {
     max-width: 20%;
     max-height: 20%;
     border-radius: 10px; /* Optional: Add border-radius for rounded corners */
-    display: none; /* Initially hide all images */
+    display: inline; /* Initially hide all images */
     box-shadow: 0 0 10px rgb(114, 136, 116);
     padding: 2px;
-}
-
-/* Show a random image */
-#image-container img:nth-child(1) {
-    order: 1;
-    display: block;
-    
-    margin: auto; 
-
-    float: left; /* Float the image to the left */
-    margin-right: 20px; /* Add margin for spacing */
-}
-
-#image-container img:nth-child(2) {
-    order: 2;
-    display: block;
-    margin: auto; 
-
-    float: left; /* Float the image to the left */
-    margin-right: 20px; /* Add margin for spacing */
-}
-
-#image-container img:nth-child(3) {
-    order: 3;
-    display: block;
 }
